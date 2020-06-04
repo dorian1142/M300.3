@@ -1,7 +1,7 @@
 # M300 Wissensstand und Lernfortschritt
 
 ## Thema 1
-Zu beachten <ls -al> Code
+Zu beachten `Code`
 
 ## Thema 2
 
