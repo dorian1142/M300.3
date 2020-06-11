@@ -7,7 +7,7 @@
 [Vagrant](#vagrant)  
 [Git](#git)  
 [LB2](#LB2)
-[Vagrantcloudfile](#vagrantcloudfile)  
+[Vagrantcloudfile](#vagrantcloudfile)
 [Lernfortschritt](#lernfortschritt)
 
     
@@ -16,7 +16,7 @@
 <a name="vagrant"/>
 <a name="git"/>
 <a name="LB2"/>
-<a name="vagrantcloudfile"/>
+<a name="vagrancloudfile"/>
 <a name="lernfortschritt"/>
 
 
