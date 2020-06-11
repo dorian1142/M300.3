@@ -3,23 +3,20 @@
 ## Inhaltsverzeichnis
 
 [Linux](#linux)  
-[Virtualisierung](#virtualisierung)
+[Virtualisierung](#virtualisierung)  
 [Vagrant](#vagrant)  
 [Git](#git)  
-[LB2](#LB2)
-[Vagrantcloudfile](#vagrantcloudfile)
-[Lernfortschritt](#lernfortschritt)
-
-    
+[LB2](#LB2)  
+[ScotchBox](#scotchbox)  
+[Lernfortschritte](#lernfortschritte)  
+   
 <a name="linux"/>
 <a name="virtualisierung"/>
 <a name="vagrant"/>
 <a name="git"/>
 <a name="LB2"/>
-<a name="vagrancloudfile"/>
-<a name="lernfortschritt"/>
-
-
+<a name="scotchbox"/>
+<a name="lernfortschritte"/>
 
 
 ## Linux
@@ -58,7 +55,7 @@ Dazu verwende ich fork als Versionsverwaltungsoberfläche. Ich komme mit dem un�
 
 ![no](https://github.com/dorian1142/M300.3/blob/master/fork.PNG)
 
-## LB2 (Vagrant multi machine)
+## LB2
 Ich habe das Vagrant File, welches Signor Calisto uns zur Verfügung gestellt hat kopiert und in ein von mir erstelltes Vagrant File eingefügt. Ich musste noch das db.sh File in mein lokales Vagrant repo kopieren, damit das Script einwandfrei ausgeführt werden kann. Schlussendlich habe ich es geschafft, die VM database und webserver zum Laufen zu bringen.
 
 ![no](https://github.com/dorian1142/M300.3/blob/master/databasestart.PNG)
@@ -71,7 +68,7 @@ Zum testen ob die Verbindung funktioniert, habe ich lokal im Browser `http://loc
 
 ![no](https://github.com/dorian1142/M300.3/blob/master/adminer.PNG)
 
-## Vagrantfile aus Vagrant Cloud https://app.vagrantup.com/scotch/boxes/box/versions/3.5
+## ScotchBox
 Um diese Maschine bei mir lokal zum Laufen zu bringen musste ich lediglich `vagrant init scotch/box \ --box-version 3.5` und einen `vagrant up` Befehl ausführen.
 
 ![no](https://github.com/dorian1142/M300.3/blob/master/scotchbox.PNG)
@@ -79,4 +76,4 @@ Um diese Maschine bei mir lokal zum Laufen zu bringen musste ich lediglich `vagr
 Davor musste ich noch ein neues lokales Repo erstellen, um dort das neue VagrantFile erstellen zu können. Dies heisst `/ScotchBox` und befindet sich auf meinem `/Desktop`.
 
 ## Lernfortschritte
-Bisher habe ich sehr viel neues gelernt aber auch altes ‚refresht‘. Vagrant war schon 2-3 mal das Thema in der Schule und auch im Basislehrjahr. Dazu gelernt habe ich nicht viel. Ich habe aber in diesem Modul endlich zu 100% verstanden, wie es funktioniert, was vor dem Modul nie der Fall war. Ebenfalls nicht neu aber sehr umständlich ist git. Ich habe git bereits öfters behandelt und auch in der Arbeit oft mit Gitlab gearbeitet. Dort habe ich auch (dank Steve Küng) mit 3.partei Programmen wie Fork gearbeitet. Fork erleichtert die Arbeit wesentlich, da es eine übersichtliche Benutzeroberfläche bietet. Das sind all meine bisherigen Lernfortschritte.
+Bisher habe ich sehr viel neues gelernt aber auch altes ‚refresht‘. Vagrant war schon 2-3 mal das Thema in der Schule und auch im Basislehrjahr. Dazu gelernt habe ich nicht viel. Ich habe aber in diesem Modul endlich zu 100% verstanden, wie es funktioniert, was vor dem Modul nie der Fall war. Ebenfalls nicht neu aber sehr umständlich ist git. Ich habe git bereits öfters behandelt und auch in der Arbeit oft mit Gitlab gearbeitet. Dort habe ich auch (dank Steve Küng) mit 3.partei Programmen wie Fork gearbeitet. Fork erleichtert die Arbeit wesentlich, da es eine übersichtliche Benutzeroberfläche bietet. Am 11. Juni habe ich noch mehr über Vagrant gelernt und viele AHA Effekte erlebt. Zum Beispiel habe ich das Vagrantfile für den Webserver und DB server bearbeitet. Oder als ich das File `Scotchbox` von der vagrant cloud heruntergeladen und gestartet habe. Ich finde Vagrant ist eine super Sache. Ich hatte zu Beginn Verständnisschwierigkeiten, diese sind jetzt nicht mehr da. Wenn ich jetzt in der Zeit der vorherigen Module zurückschaue, hätte ich mit Vagrant so viel Zeit sparen können...
