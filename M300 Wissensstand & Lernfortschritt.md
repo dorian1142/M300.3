@@ -1,5 +1,14 @@
 # M300 Wissensstand und Lernfortschritt
 
+## Inhaltsverzeichnis
+
+[Linux](#linux)  
+[Virtualisierung](#virtualisierung)  
+...snip...    
+<a name="linux"/>
+<a name="virtualisierung"/>
+
+
 ## Linux
 Linux ist das in Smartphones am meisten verwendete OS neben iOS. Ursprünglich wollte Linus Torvalds Linux ausschliesslich für Desktops entwickeln, was aufgrund der ‚Faulheit‘ der Menschen nie realisiert wurde. Linux ist nicht von Anfang an einfach zu verstehen und es unterscheidet sich grundlegend von Windows. Windows ist bspw. Auf den meisten Desktops und Laptops bereits vorinstalliert, wie macOS. Linux wird an sich nicht bereits auf Geräten vorinstalliert verkauft. Jedoch hat sich Linux im Bereich Server und Smartphone-OS bereits sehr bewährt. Von Linux gibt es etliche Distros, von Ubuntu über Debian bis Kali & Raspi. Diese werden in allen unterschiedlichen Bereichen wie dem Verwalten von Domänen bis zum Ethical Hacking / Penetration testing oder dem Projektunterricht (Raspi) verwendet.
 
@@ -49,6 +58,12 @@ Zum testen ob die Verbindung funktioniert, habe ich lokal im Browser `http://loc
 
 ![no](https://github.com/dorian1142/M300.3/blob/master/adminer.PNG)
 
+## Vagrantfile aus Vagrant Cloud https://app.vagrantup.com/scotch/boxes/box/versions/3.5
+Um diese Maschine bei mir lokal zum Laufen zu bringen musste ich lediglich `vagrant init scotch/box \ --box-version 3.5` und einen `vagrant up` Befehl ausführen.
+
+![no](https://github.com/dorian1142/M300.3/blob/master/scotchbox.PNG)
+
+Davor musste ich noch ein neues lokales Repo erstellen, um dort das neue VagrantFile erstellen zu können. Dies heisst `/ScotchBox` und befindet sich auf meinem `/Desktop`.
 
 ## Lernfortschritte
 Bisher habe ich sehr viel neues gelernt aber auch altes ‚refresht‘. Vagrant war schon 2-3 mal das Thema in der Schule und auch im Basislehrjahr. Dazu gelernt habe ich nicht viel. Ich habe aber in diesem Modul endlich zu 100% verstanden, wie es funktioniert, was vor dem Modul nie der Fall war. Ebenfalls nicht neu aber sehr umständlich ist git. Ich habe git bereits öfters behandelt und auch in der Arbeit oft mit Gitlab gearbeitet. Dort habe ich auch (dank Steve Küng) mit 3.partei Programmen wie Fork gearbeitet. Fork erleichtert die Arbeit wesentlich, da es eine übersichtliche Benutzeroberfläche bietet. Das sind all meine bisherigen Lernfortschritte.
