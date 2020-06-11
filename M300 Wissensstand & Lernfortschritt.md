@@ -6,7 +6,7 @@
 [Virtualisierung](#virtualisierung)
 [Vagrant](#vagrant)  
 [Git](#git)  
-[LB2 (Vagrant multi machine)](#LB2)
+[LB2](#LB2)
 [Vagrantcloudfile](#vagrantcloudfile)  
 [Lernfortschritt](#lernfortschritt)
 
