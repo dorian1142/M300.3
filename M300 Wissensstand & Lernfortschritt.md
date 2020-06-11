@@ -8,7 +8,9 @@ Linux ist das in Smartphones am meisten verwendete OS neben iOS. Ursprünglich w
 ## Virtualisierung
 Virtualisierungsmethoden werden seit längerem verwendet und werden auch bereits abgelöst, da schon effizientere Massnahmen u.A. zum verringern von Energieverbrauch existieren. Die bekanntesten Virtualisierungssoftwares sind: Virtualbox, VMware (ebenfalls ESXi), Hyper-V (Auf allen Windows 10 Pro Geräten bereits vorinstalliert, sofern man Intel VTx aktiviert hat). 
 
-![no](http://url/to/img.png)
+![no](https://github.com/dorian1142/M300.3/blob/master/Hypervisor.PNG)
+
+
 ## Vagrant
 
 ## Git
