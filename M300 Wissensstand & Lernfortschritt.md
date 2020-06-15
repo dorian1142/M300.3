@@ -8,7 +8,9 @@
 [Git](#git)  
 [LB2](#LB2)  
 [ScotchBox](#scotchbox)  
+[UFW](#UFW) 
 [Lernfortschritte](#lernfortschritte)  
+
    
 <a name="linux"/>
 <a name="virtualisierung"/>
@@ -16,7 +18,9 @@
 <a name="git"/>
 <a name="LB2"/>
 <a name="scotchbox"/>
+<a name="UFW"/>
 <a name="lernfortschritte"/>
+
 
 
 ## Linux
@@ -74,6 +78,9 @@ Um diese Maschine bei mir lokal zum Laufen zu bringen musste ich lediglich `vagr
 ![no](https://github.com/dorian1142/M300.3/blob/master/scotchbox.PNG)
 
 Davor musste ich noch ein neues lokales Repo erstellen, um dort das neue VagrantFile erstellen zu können. Dies heisst `/ScotchBox` und befindet sich auf meinem `/Desktop`.
+
+## UFW
+Hier Text einfügen
 
 ## Lernfortschritte
 Bisher habe ich sehr viel neues gelernt aber auch altes ‚refresht‘. Vagrant war schon 2-3 mal das Thema in der Schule und auch im Basislehrjahr. Dazu gelernt habe ich nicht viel. Ich habe aber in diesem Modul endlich zu 100% verstanden, wie es funktioniert, was vor dem Modul nie der Fall war. Ebenfalls nicht neu aber sehr umständlich ist git. Ich habe git bereits öfters behandelt und auch in der Arbeit oft mit Gitlab gearbeitet. Dort habe ich auch (dank Steve Küng) mit 3.partei Programmen wie Fork gearbeitet. Fork erleichtert die Arbeit wesentlich, da es eine übersichtliche Benutzeroberfläche bietet. Am 11. Juni habe ich noch mehr über Vagrant gelernt und viele AHA Effekte erlebt. Zum Beispiel habe ich das Vagrantfile für den Webserver und DB server bearbeitet. Oder als ich das File `Scotchbox` von der vagrant cloud heruntergeladen und gestartet habe. Ich finde Vagrant ist eine super Sache. Ich hatte zu Beginn Verständnisschwierigkeiten, diese sind jetzt nicht mehr da. Wenn ich jetzt in der Zeit der vorherigen Module zurückschaue, hätte ich mit Vagrant so viel Zeit sparen können...
