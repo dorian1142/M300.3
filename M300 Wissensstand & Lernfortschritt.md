@@ -80,7 +80,15 @@ Um diese Maschine bei mir lokal zum Laufen zu bringen musste ich lediglich `vagr
 Davor musste ich noch ein neues lokales Repo erstellen, um dort das neue VagrantFile erstellen zu können. Dies heisst `/ScotchBox` und befindet sich auf meinem `/Desktop`.
 
 ## UFW
-Hier Text einfügen
+Die UFW ist eine super easy Firewall, für jeden schnell verständlich. Ich habe die Anleitung von Herrn Rohr so befolgt, dass ich schlussendlich dieses Ergebnis erhalten habe:
+
+![no](https://github.com/dorian1142/M300.3/blob/master/webUFWstatus.PNG)
+
+Zu sehen (oben) sind die aktiven Rules der UFW auf dem Webserver 192.168.55.101.
+
+![no](https://github.com/dorian1142/M300.3/blob/master/dbUFWdelete.PNG)
+
+Hier sind die Rules von der DB VM, es ist nur eine einzige die man im Vorfeld beim Bearbeiten der Anleitung erstellen musste. Danach musste man sie wieder löschen.
 
 ## Lernfortschritte
-Bisher habe ich sehr viel neues gelernt aber auch altes ‚refresht‘. Vagrant war schon 2-3 mal das Thema in der Schule und auch im Basislehrjahr. Dazu gelernt habe ich nicht viel. Ich habe aber in diesem Modul endlich zu 100% verstanden, wie es funktioniert, was vor dem Modul nie der Fall war. Ebenfalls nicht neu aber sehr umständlich ist git. Ich habe git bereits öfters behandelt und auch in der Arbeit oft mit Gitlab gearbeitet. Dort habe ich auch (dank Steve Küng) mit 3.partei Programmen wie Fork gearbeitet. Fork erleichtert die Arbeit wesentlich, da es eine übersichtliche Benutzeroberfläche bietet. Am 11. Juni habe ich noch mehr über Vagrant gelernt und viele AHA Effekte erlebt. Zum Beispiel habe ich das Vagrantfile für den Webserver und DB server bearbeitet. Oder als ich das File `Scotchbox` von der vagrant cloud heruntergeladen und gestartet habe. Ich finde Vagrant ist eine super Sache. Ich hatte zu Beginn Verständnisschwierigkeiten, diese sind jetzt nicht mehr da. Wenn ich jetzt in der Zeit der vorherigen Module zurückschaue, hätte ich mit Vagrant so viel Zeit sparen können...
+Bisher habe ich sehr viel neues gelernt aber auch altes ‚refresht‘. Vagrant war schon 2-3 mal das Thema in der Schule und auch im Basislehrjahr. Dazu gelernt habe ich nicht viel. Ich habe aber in diesem Modul endlich zu 100% verstanden, wie es funktioniert, was vor dem Modul nie der Fall war. Ebenfalls nicht neu aber sehr umständlich ist git. Ich habe git bereits öfters behandelt und auch in der Arbeit oft mit Gitlab gearbeitet. Dort habe ich auch (dank Steve Küng) mit 3.partei Programmen wie Fork gearbeitet. Fork erleichtert die Arbeit wesentlich, da es eine übersichtliche Benutzeroberfläche bietet. Am 11. Juni habe ich noch mehr über Vagrant gelernt und viele AHA Effekte erlebt. Zum Beispiel habe ich das Vagrantfile für den Webserver und DB server bearbeitet. Oder als ich das File `Scotchbox` von der vagrant cloud heruntergeladen und gestartet habe. Ich finde Vagrant ist eine super Sache. Ich hatte zu Beginn Verständnisschwierigkeiten, diese sind jetzt nicht mehr da. Wenn ich jetzt in der Zeit der vorherigen Module zurückschaue, hätte ich mit Vagrant so viel Zeit sparen können... Am 15. Juni habe ich weiter am Auftrag gearbeitet und viel über die UFW gelernt. Sie ist super Handy und ich hätte anfangs des Kapitels 25 nicht gedacht, dass es so easy sein würde. Ich habe die gängigsten Befehle der UFW kennengelernt und angewandt.
