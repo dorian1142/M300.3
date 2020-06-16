@@ -98,6 +98,11 @@ Hier sind die Rules von der DB VM, es ist nur eine einzige die man im Vorfeld be
 
 Hier noch ein curl von meinem lokalen Client auf die Webserver IP:
 
+![no](https://github.com/dorian1142/M300.3/blob/master/curlLocal.PNG)
+
+Ich habe die IP Adresse in Chrome auf meinem Client eingegeben und folgendes erhalten:
+
+![no](https://github.com/dorian1142/M300.3/blob/master/curlLocalGUi.PNG)
 
 ## Proxy
 Ich habe den Proxy Service heruntergeladen (er war bereits vorinstalliert) & die Folgende Linie in `/etc/apache2/apache2.conf` hinzugefügt: 
