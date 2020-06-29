@@ -43,4 +43,8 @@ Als LB3 habe ich einen kleinen LAMP Stack ausgewählt. Dieser war nicht in der B
 
 Als erstes musste ich einen Folder erstellen, wo all die Docker Dateien darin gespeichert werden. Diesen Ordner habe ich `Docker` genannt, er befindet sich auf meinem Desktop.
 
+![no](https://github.com/dorian1142/M300.3/blob/master/dockerinhalt.PNG)
 
+Dazu habe ich das nötige `html directory` erstellt (auf dem Bild ersichtlich). 
+
+Anschliessend habe ich den `php-apache  ` Ordner erstellt, indem sich auch das dazugehörige Dockerfile befindet, da `php-apache` als Apache-Webserver dienen wird.
