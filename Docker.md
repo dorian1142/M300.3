@@ -19,3 +19,6 @@ Die gängigsten Docker Befehle (welche ich verwenden musste) wären folgende:
 
 - `docker run 'name'` - erstellt einen Container
 - `docker ps -a` - Zeigt laufende Container und die dazugehörigen Informationen wie ID, Image etc.
+
+![no](https://github.com/dorian1142/M300.3/blob/master/dockerrun.PNG)
+
