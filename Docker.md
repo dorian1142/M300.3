@@ -22,6 +22,5 @@ Die gängigsten Docker Befehle (welche ich verwenden musste) wären folgende:
 
 ![no](https://github.com/dorian1142/M300.3/blob/master/dockerrun.PNG)
 
-Im Bild oben sieht man einen `docker run` und einen `docker ps -a` Befehl.
-
+- `docker rm 'name'` - Löscht Container (Bei Name muss die Container ID eingegeben werden)
 
