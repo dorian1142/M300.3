@@ -47,4 +47,4 @@ Als erstes musste ich einen Folder erstellen, wo all die Docker Dateien darin ge
 
 Dazu habe ich das nötige `html directory` erstellt (auf dem Bild ersichtlich). 
 
-Anschliessend habe ich den `php-apache  ` Ordner erstellt, indem sich auch das dazugehörige Dockerfile befindet, da `php-apache` als Apache-Webserver dienen wird.
+Anschliessend habe ich den `php-apache` Ordner erstellt, indem sich auch das dazugehörige Dockerfile befindet, da `php-apache` als Apache-Webserver dienen wird. Das gleiche habe ich mit dem Ordner `mariadb` gemacht.
