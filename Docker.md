@@ -45,6 +45,17 @@ Als erstes musste ich einen Folder erstellen, wo all die Docker Dateien darin ge
 
 ![no](https://github.com/dorian1142/M300.3/blob/master/dockerinhalt.PNG)
 
-Dazu habe ich das nötige `html directory` erstellt (auf dem Bild ersichtlich). 
+Dazu habe ich das nötige `html` directory erstellt (auf dem Bild ersichtlich). 
 
 Anschliessend habe ich den `php-apache` Ordner erstellt, indem sich auch das dazugehörige Dockerfile befindet, da `php-apache` als Apache-Webserver dienen wird. Das gleiche habe ich mit dem Ordner `mariadb` gemacht.
+
+Gleich danach habe ich das `index.php` File in den Ordner `html` geschrieben.
+
+Anschliessend habe ich dasselbe mit dem MariaDB Container gemacht und die beiden im `compose.yml` File zusammengefasst.
+Um das Kompilieren erfolgreich durchzuführen muss man den Befehl `docker-compose up` ausführen. 
+
+Damit ich die volle 'Wirkung' des LAMP Stacks demonstrieren kann, habe ich noch eine kleine DB aufgebaut und eine Tabelle erstellt.
+Diese habe ich ins File `index.php` mit anderem html-Code einfliessen lassen, um folgendes Ergebnis zu erhalten:
+
+
+
