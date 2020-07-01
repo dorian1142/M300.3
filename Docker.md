@@ -5,11 +5,13 @@
 [Docker](#docker)  
 [Start](#start)  
 [LB3](#LB3)  
+[Vergleich Vorwissen - Wissenszuwachs](#Vergleich Vorwissen - Wissenszuwachs)  
 
 
 <a name="Docker"/>
 <a name="start"/>
 <a name="LB3"/>
+<a name="Vergleich Vorwissen - Wissenszuwachs"/>
 
 ## Docker
 Was ist Docker?
@@ -57,5 +59,9 @@ Um das Kompilieren erfolgreich durchzuführen muss man den Befehl `docker-compos
 Damit ich die volle 'Wirkung' des LAMP Stacks demonstrieren kann, habe ich noch eine kleine DB aufgebaut und eine Tabelle erstellt.
 Diese habe ich ins File `index.php` mit anderem html-Code einfliessen lassen, um folgendes Ergebnis zu erhalten:
 
+![no](https://github.com/dorian1142/M300.3/blob/master/site.PNG)
 
+Anscheinend hat es funktioniert :)
+
+## Vergleich Vorwissen - Wissenszuwachs
 
