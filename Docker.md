@@ -5,13 +5,15 @@
 [Docker](#docker)  
 [Start](#start)  
 [LB3](#LB3)  
-[Vergleich Vorwissen - Wissenszuwachs](#Vergleich Vorwissen - Wissenszuwachs)  
-
+[Vergleich](#Vergleich)  
+[Reflexion](#Reflexion)  
 
 <a name="Docker"/>
 <a name="start"/>
 <a name="LB3"/>
-<a name="Vergleich Vorwissen - Wissenszuwachs"/>
+<a name="Vergleich"/>
+<a name="Reflexion"/>
+
 
 ## Docker
 Was ist Docker?
@@ -56,6 +58,10 @@ Gleich danach habe ich das `index.php` File in den Ordner `html` geschrieben.
 Anschliessend habe ich dasselbe mit dem MariaDB Container gemacht und die beiden im `compose.yml` File zusammengefasst.
 Um das Kompilieren erfolgreich durchzuführen muss man den Befehl `docker-compose up` ausführen. 
 
+So sah das ganze dann auf Docker Desktop aus:
+
+![no](https://github.com/dorian1142/M300.3/blob/master/dockerdesktop.PNG)
+
 Damit ich die volle 'Wirkung' des LAMP Stacks demonstrieren kann, habe ich noch eine kleine DB aufgebaut und eine Tabelle erstellt.
 Diese habe ich ins File `index.php` mit anderem html-Code einfliessen lassen, um folgendes Ergebnis zu erhalten:
 
@@ -63,5 +69,9 @@ Diese habe ich ins File `index.php` mit anderem html-Code einfliessen lassen, um
 
 Anscheinend hat es funktioniert :)
 
-## Vergleich Vorwissen - Wissenszuwachs
+## Vergleich
+Vor der LB3 habe ich absolut nichts über Docker gewusst. Jetzt kenne ich die grundlegenden Aspekte von Docker. Das bedeutet ich kenne die Basic-Commands wie man
+z.B. Container erstellt, löscht oder auflistet. Dazu habe ich noch die Funktionsweise noch einmal angeschaut, da ich nicht wirklich den Durchblick (wie bei Vagrant) hatte. Ich habe mich auch erneut intensiv mit der SQL und PHP Technologie auseinandergesetzt. Dies hat mir den Aufbau des LAMP Stack erst ermöglicht. Ich habe dazu natürlich mehrere kleine Anleitungen angeschaut.
+
+## Reflexion
 
