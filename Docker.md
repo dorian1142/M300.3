@@ -74,10 +74,13 @@ Diese habe ich ins File `index.php` mit anderem html-Code einfliessen lassen, um
 Anscheinend hat es funktioniert :)
 
 ## Sicherheitsaspekte
+Ich habe mich im KAP35 über die Sicherheitsaspekte schlau gemacht und einige Commands in meinem Git Bash getestet:
+
+
 
 ## Vergleich
 Vor der LB3 habe ich absolut nichts über Docker gewusst. Jetzt kenne ich die grundlegenden Aspekte von Docker. Das bedeutet ich kenne die Basic-Commands wie man
 z.B. Container erstellt, löscht oder auflistet. Ebenfalls habe ich gelernt, wie man 2 Container composet. Das ist natürlich auch mit mehr als 2 Maschinen möglich. Dazu habe ich noch die Funktionsweise von Docker noch mehrere Male angeschaut, da ich nicht wirklich den Durchblick (wie bei Vagrant) hatte. Ich habe mich auch erneut intensiv mit der SQL und PHP Technologie auseinandergesetzt. Dies hat mir den Aufbau des LAMP Stack erst ermöglicht. Ich habe dazu natürlich mehrere kleine Anleitungen angeschaut.
 
 ## Reflexion
-Docker ist sehr interessant, wenn man es erst versteht. Es hat mir viel Kopfzerbrechen bereitet, da es eine ganz andere Technologie ist, als ich mir bisher gewohnt war. Erst mal ein wenig im Thema Docker, versteht man rasch die Basics. Es hat mir Spass gemacht, obwohl es mir verdammt viel Zeit geraubt hat (Ich war täglich mindestens eine Stunde nach der Arbeit noch an der LB3). Durch die LB3 habe ich Einblicke in Docker und ebenfalls einen Refresh im Thema SQL und PHP erhalten. SQL und PHP mag ich sehr, auch wenn sie kompliziert sein können, wenn man alles zusammen agieren lassen möchte.
+Docker ist sehr interessant, wenn man es erst versteht. Es hat mir viel Kopfzerbrechen bereitet, da es eine ganz andere Technologie ist, als ich mir bisher gewohnt war. Erst mal ein wenig im Thema Docker, versteht man rasch die Basics. Es hat mir Spass gemacht, obwohl es mir verdammt viel Zeit geraubt hat (Ich war täglich mindestens eine Stunde nach der Arbeit noch an der LB3). Durch die LB3 habe ich Einblicke in Docker und ebenfalls einen Refresh im Thema SQL und PHP erhalten. SQL und PHP mag ich sehr, auch wenn sie kompliziert sein können, wenn man alles zusammen agieren lassen möchte. Ich finde Vagrant einen Tick einfacher zu verstehen und umzusetzen, deshalb finde ich Vagrant auch angenehmer.
